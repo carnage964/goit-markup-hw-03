@@ -6,16 +6,16 @@ body {
 }
 
 .header-class-page {
-    border-bottom: 1px solid #e7e9fc;
+    border-bottom: 1px, solid #e7e9fc;
 }
 
 .div-header-body {
     display: flex;
-    container: 0;
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
 }
+
 
 .logo {
     font-family: 'Raleway', sans-serif;
@@ -100,10 +100,12 @@ ul {
 
 .section-details {
 background-color: #2E2F42;
+padding: 188px 0;
 }
 
 
 .top-class-text {
+    max-width: 496px;
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
@@ -121,12 +123,21 @@ background-color: #2E2F42;
 
     color: #FFFFFF;
     cursor: pointer;
+
+
 }
 
 .button-class:hover,
 .button-class:active,
 .button-class:focus {
     background-color: #404BBF;
+        display: block;
+            min-width: 169px;
+            height: 56px;
+            border: none;
+            background-color: #4d5ae5;
+            border-radius: 4px;
+            cursor: pointer;
 }
 
 
