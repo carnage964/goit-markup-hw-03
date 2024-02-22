@@ -5,15 +5,17 @@ body {
     background-color: #FFFFFF;
 }
 
-.header-class-page {
-    border-bottom: 1px, solid #e7e9fc;
+.header-page {
+    border-bottom: 1px solid #e7e9fc;
 }
 
-.div-header-body {
-    display: flex;
+.container {
     width: 1158px;
+    display: flex;
     margin: 0 auto;
     padding: 0 15px;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 
@@ -120,24 +122,21 @@ padding: 188px 0;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-
     color: #FFFFFF;
     cursor: pointer;
-
-
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    background-color: #4d5ae5;
+    border-radius: 4px;
+    cursor: pointer;
 }
 
 .button-class:hover,
 .button-class:active,
 .button-class:focus {
     background-color: #404BBF;
-        display: block;
-            min-width: 169px;
-            height: 56px;
-            border: none;
-            background-color: #4d5ae5;
-            border-radius: 4px;
-            cursor: pointer;
 }
 
 
