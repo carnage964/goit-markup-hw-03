@@ -177,7 +177,7 @@ padding: 188px 0;
 
 /* three section */
 
-.team-section {
+.team-sectionn {
     background-color: #F4F4FD;
     padding: 120px 0;
 }
@@ -220,11 +220,35 @@ padding: 188px 0;
 }
 
 .p-section-text {
+    margin-bottom: 8px;
     text-align: center;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+}
+
+/* four section */
+
+.four-sectionn {
+    padding-top: 120px;
+}
+
+.list-four {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+}
+
+.strategy-marketing {
+    width: calc((100% - 48px) / 3)
+}
+
+.div-strategy {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
 }
 
 /* footer */
