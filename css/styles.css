@@ -145,7 +145,7 @@ padding: 188px 0;
 
 /* two section */
 
-.section-two {
+.section-details {
     padding: 120px 0;
 }
 
@@ -170,7 +170,20 @@ padding: 188px 0;
 .list-section-strategy {
     width: calc((100% - 72px) / 4)
 }
+
+.team-card-background {
+    background-color: #FFFFFF;
+}
+
+/* three section */
+
+.team-section {
+    background-color: #F4F4FD;
+    padding: 120px 0;
+}
+
 .philosophy-header-title {
+    margin-bottom: 72px;
     padding: 120px 0;
     font-weight: 500;
     font-size: 36px;
@@ -181,7 +194,23 @@ padding: 188px 0;
     text-transform: capitalize;
 }
 
+.section-team {
+    display: flex;
+    gap: 24px;
+}
+
+.ourteam-section {
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
+    background-color: #FFFFFF;
+}
+
+.team-name {
+    padding: 32px 16px;
+}
+
 .sol-class {
+    text-align: center;
     margin-bottom: 8px;
     font-weight: 500;
     font-size: 20px;
@@ -190,24 +219,12 @@ padding: 188px 0;
     color: #2E2F42;
 }
 
-.team-card-background {
-    background-color: #FFFFFF;
-}
-
 .p-section-text {
+    text-align: center;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-}
-
-
-.team-section {
-    background-color: #F4F4FD;
-}
-
-.ourteam-section {
-    background-color: #FFFFFF;
 }
 
 /* footer */
