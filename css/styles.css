@@ -5,6 +5,17 @@ body {
     background-color: #FFFFFF;
 }
 
+.header-class-page {
+    border-bottom: 1px solid #e7e9fc;
+}
+
+.div-header-body {
+    display: flex;
+    container: 0;
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
 
 .logo {
     font-family: 'Raleway', sans-serif;
@@ -23,6 +34,12 @@ body {
 
 .logo {
     color: #4D5AE5;
+    margin-right: 76px;
+}
+
+.menu-list-link {
+    display: flex;
+    gap: 40px;
 }
 
 ul {
@@ -37,6 +54,9 @@ ul {
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-decoration: none;
+    display: flex;
+    align-items: center;
+    padding: 24px 0;
 }
 
 .navigation-links .link:hover {
@@ -47,9 +67,13 @@ ul {
     color: #404BBF;
 }
 
-
 .address-details {
     font-style: normal;
+}
+
+.ul-list-class {
+    display: flex;
+    gap: 40px;
 }
 
 .li-link {
@@ -59,10 +83,12 @@ ul {
     color: #434455;
     text-decoration: none;
 }
+
 .link:hover,
 .li-link:hover {
     color: #404BBF;
 }
+
 .link:focus,
 .li-link:focus {
     color: #404BBF;
