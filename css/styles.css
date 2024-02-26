@@ -210,7 +210,11 @@ section {
     color: #404bbf;
 }
 
-.section-details
+.section-details {
+    background-color: #2e2f42;
+    text-align: center;
+    padding: 188px 0;
+}
 
 .top-class-text {
     color: #ffffff;
